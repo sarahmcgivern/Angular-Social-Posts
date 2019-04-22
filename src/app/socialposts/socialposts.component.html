@@ -1,0 +1,19 @@
+<section class="psuedobody">
+<h1>My Thoughts</h1>
+<div class="container">
+<button class="new" type="button" (click)="toggleChild()">New Thought</button>
+<section class="wrapper">
+<div class="list" *ngFor="let item of thoughts">
+<post [post] ="item" ></post>
+
+<button (click) = "removeThought(i)" class="delete">X</button>
+<!-- <post (submitted)="onSubmit($event)" [post] ="item" ></post> -->
+</div>
+    <!-- <postForm (submitted)="onSubmit($event)"></postForm> -->
+</section>
+</div>
+<div>
+    <!-- <postForm [showMePartially]="showVar"></postForm> -->
+    <postForm (submitted)="onSubmit($event)"[showMePartially]="showVar"></postForm>
+</div>
+</section>

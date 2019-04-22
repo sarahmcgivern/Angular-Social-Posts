@@ -1,0 +1,47 @@
+.formcontainer {
+    border: 1px solid black;
+    text-align: center;
+    margin: 100px;
+    padding: 30px;
+   
+    background-color: lightblue;
+    font-family: Verdana;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: left;
+    font-weight: lighter;
+}
+
+.thought {
+    text-align: left;
+    font-weight: lighter;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 98%;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+}

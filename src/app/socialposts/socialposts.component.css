@@ -1,0 +1,66 @@
+/* .delete {
+    border: none;
+    background-color: red;
+    height: 20px;
+    float: right;
+    text-align: center;
+    margin-top: -35px; 
+}
+
+.fa-times {
+    pointer-events: none;
+    color: black;
+    height: 20px;
+}  */
+/* body {
+    overflow-x: hidden;
+  } */
+
+.container {
+    font-family: Verdana;
+}
+.delete, .fa-times {
+    border: none;
+}
+
+.fa-times {
+    pointer-events: none;
+    font-weight: 500;
+}
+ 
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(93, 186, 244);
+    font-weight: bold;
+}
+
+.new {
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 30px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    background-color: white;
+    
+
+   
+}
+
+.list {
+    display: flex;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    
+}

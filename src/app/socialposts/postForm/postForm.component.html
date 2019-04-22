@@ -1,0 +1,8 @@
+
+<div class="formcontainer" *ngIf="showMePartially">
+<h4 class="title">Title</h4>
+<input type="text" [(ngModel)]="titleInput" placeholder="Post title" (focus)="myFocusMethod($event)" />
+<h4 class="thought">Thought</h4>
+<textarea [(ngModel)]="contentInput"></textarea>
+<button class="submit" type="submit" (click) = "onSubmit()">Add Post </button>
+</div>
