@@ -21,7 +21,7 @@
 }
 
 input:focus + textarea, textarea:focus {
-    height:300px;
+    height: 300px;
 }
 
 input {
